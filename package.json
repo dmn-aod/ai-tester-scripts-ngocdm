@@ -1,0 +1,16 @@
+{
+  "name": "ai-tester-scripts",
+  "version": "1.0.0",
+  "description": "AI-powered test automation with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:fixture": "playwright test tests/loginWithFixture.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
